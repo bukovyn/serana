@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="scripts/search.js"></script>
+    <script src="scripts/load.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="head">
+        <div class="logo"><img src="icons/fox.svg" /></div>
+        <div class="search_box">
+
+          <img class="engine" id="engineLogo" src="icons/google.svg" onclick="toggleEngine()" style="cursor:pointer" />
+
+          <div id="gSearch" style="display:block;">
+            <form id="textField" class="google" action="https://google.com/search" method="get">
+              <input class="input_box" type="text" name="q" placeholder="Search with Google" onfocus="this.placeholder=''" onblur="this.placeholder='Search with Google'">
+            </form>
+          </div>
+
+          <div id="dSearch" style="display:none;">
+            <form class="duck" action="https://duckduckgo.com/" method="get">
+              <input class="input_box" type="text" name="q" placeholder="Search with DuckDuckGo" onfocus="this.placeholder=''" onblur="this.placeholder='Search with DuckDuckGo'">
+            </form>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="bookmark">
+        <div class="category">
+          <div class="icon"><img src="icons/code.svg" /></div>
+          <div class="bookmarks cod">
+            <li><a class="bm" href="https://archlinux.org/news/">arch</a></li>
+            <li><a class="bm" href="https://stackoverflow.com/">stack</a></li>
+            <li><a class="bm" href="https://github.com/bukovyn">github</a></li>
+            <li><a class="bm" href="https://nazar.owlpractice.dev/">owldev</a></li>
+            <li><a class="bm" href="https://news.ycombinator.com/">hackernews</a></li>
+          </div>
+        </div>
+
+        <div class="category">
+          <div class="icon"><img src="icons/entertainment.svg" /></div>
+          <div class="bookmarks ent">
+            <li><a class="bm" href="https://mail.google.com/mail/u/0/#inbox">gmail</a></li>
+            <li><a class="bm" href="https://www.reddit.com/">reddit</a></li>
+            <li><a class="bm" href="https://www.youtube.com/">youtube</a></li>
+            <li><a class="bm" href="https://www.netflix.com/browse">netflix</a></li>
+            <li><a class="bm" href="https://www.crave.ca/en">cravetv</a></li>
+          </div>
+        </div>
+
+        <div class="category">
+          <div class="icon"><img src="icons/music.svg" /></div>
+          <div class="bookmarks mus">
+            <li><a class="bm" href="https://www.reddit.com/r/piano/">piano</a></li>
+            <li><a class="bm" href="https://www.ultimate-guitar.com/">guitar</a></li>
+            <li><a class="bm" href="https://open.spotify.com/">spotify</a></li>
+            <li><a class="bm" href="https://musescore.org/en">musescore</a></li>
+            <li><a class="bm" href="https://metronom.us/en/">metronome</a></li>
+          </div>
+        </div>
+
+        <div class="category">
+          <div class="icon"><img src="icons/art.svg" /></div>
+          <div class="bookmarks art">
+            <li><a class="bm" href="https://www.reddit.com/r/unixporn/">*nix</a></li>
+            <li><a class="bm" href="https://www.etsy.com/">etsy</a></li>
+            <li><a class="bm" href="https://in.pinterest.com/">pinterest</a></li>
+            <li><a class="bm" href="https://wallhaven.cc/">wallhaven</a></li>
+            <li><a class="bm" href="https://www.deviantart.com/">deviantart</a></li>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+
+</html>
