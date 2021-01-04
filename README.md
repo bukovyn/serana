@@ -12,3 +12,9 @@
 - [oomox](https://github.com/themix-project/oomox)
 - [pywal](https://github.com/dylanaraps/pywal)
 - [polybar](https://github.com/polybar/polybar)
+
+## firefox start page preferences
+```
+sudo cp firefox/newtab/local-settings.js /usr/lib/firefox/defaults/pref/
+sudo cp firefox/newtab/mozilla.cfg /usr/lib/firefox/  
+```
