@@ -7,6 +7,13 @@
 </p>
 <p align="center"><i>Shown on arch linux with i3-gaps</i></p>
 
+### firefox start page preferences
+```
+cd firefox/newtab
+sudo cp local-settings.js /usr/lib/firefox/defaults/pref
+sudo cp mozilla.cfg /usr/lib/firefox/  
+```
+
 # Requirements
 - [gtk](https://www.gtk.org/)
 - [oomox](https://github.com/themix-project/oomox)
