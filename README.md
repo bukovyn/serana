@@ -1,4 +1,4 @@
-# :vampire: Serana - A material based theme for productivity
+# :vampire: Serana - A material based theme
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/bukovyn/serana/master/img/theme.png" alt="theme">
