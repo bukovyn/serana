@@ -1,9 +1,9 @@
 # :vampire: Serana - A material based theme for productivity
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bukovyn/serana/master/img/theme.png" alt="theme">
+  <img src="https://raw.githubusercontent.com/bukovyn/serana/master/img/theme_1.png" alt="theme">
   <br>
-  <img src="https://raw.githubusercontent.com/bukovyn/serana/master/img/theme2.png" alt="theme2">
+  <img src="https://raw.githubusercontent.com/bukovyn/serana/master/img/theme_2.png" alt="theme2">
 </p>
 <p align="center"><i>Shown on arch linux with i3-gaps</i></p>
 
