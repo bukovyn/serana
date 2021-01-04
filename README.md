@@ -15,7 +15,7 @@
 
 ## firefox start page preferences
 ```
-cd firefox/newtab
+cd firefox/newtab/
 sudo cp local-settings.js /usr/lib/firefox/defaults/pref/
 sudo cp mozilla.cfg /usr/lib/firefox/  
 ```
