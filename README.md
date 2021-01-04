@@ -13,9 +13,9 @@
 - [pywal](https://github.com/dylanaraps/pywal)
 - [polybar](https://github.com/polybar/polybar)
 
-### firefox start page preferences
+## firefox start page preferences
 ```
 cd firefox/newtab
-sudo cp local-settings.js /usr/lib/firefox/defaults/pref
+sudo cp local-settings.js /usr/lib/firefox/defaults/pref/
 sudo cp mozilla.cfg /usr/lib/firefox/  
 ```
